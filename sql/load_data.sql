@@ -1,0 +1,2 @@
+-- Data Loading Scripts
+-- Will be added after PostgreSQL setup

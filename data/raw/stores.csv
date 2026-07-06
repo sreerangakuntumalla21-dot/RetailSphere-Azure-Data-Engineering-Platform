@@ -1,0 +1,101 @@
+store_id,store_name,store_type,city,state,country
+1,RetailSphere Store 1,Express,Fosterland,North Carolina,USA
+2,RetailSphere Store 2,Supermarket,Lake Jamesshire,Tennessee,USA
+3,RetailSphere Store 3,Hypermarket,North Jeffreyfurt,Connecticut,USA
+4,RetailSphere Store 4,Express,Lake Christopherport,Nevada,USA
+5,RetailSphere Store 5,Supermarket,Ramirezville,New Mexico,USA
+6,RetailSphere Store 6,Warehouse,South Latoya,South Dakota,USA
+7,RetailSphere Store 7,Mall Outlet,Richardsonfurt,Montana,USA
+8,RetailSphere Store 8,Hypermarket,Kellystad,Alabama,USA
+9,RetailSphere Store 9,Mall Outlet,Lake Yesenia,Delaware,USA
+10,RetailSphere Store 10,Warehouse,North Melanie,New Mexico,USA
+11,RetailSphere Store 11,Mall Outlet,East Phillip,Massachusetts,USA
+12,RetailSphere Store 12,Express,Jessicastad,Wisconsin,USA
+13,RetailSphere Store 13,Mall Outlet,South Juan,Arkansas,USA
+14,RetailSphere Store 14,Hypermarket,East Michaelburgh,North Dakota,USA
+15,RetailSphere Store 15,Hypermarket,West Elizabeth,West Virginia,USA
+16,RetailSphere Store 16,Warehouse,New Sandra,Alaska,USA
+17,RetailSphere Store 17,Express,West Rogermouth,Hawaii,USA
+18,RetailSphere Store 18,Warehouse,Barnettside,Alabama,USA
+19,RetailSphere Store 19,Warehouse,North Jamesfurt,Louisiana,USA
+20,RetailSphere Store 20,Hypermarket,Rosemouth,New Hampshire,USA
+21,RetailSphere Store 21,Supermarket,North Cherylview,Wyoming,USA
+22,RetailSphere Store 22,Express,Susanhaven,Florida,USA
+23,RetailSphere Store 23,Warehouse,Lake Marthahaven,Alabama,USA
+24,RetailSphere Store 24,Hypermarket,Reyesshire,Colorado,USA
+25,RetailSphere Store 25,Warehouse,Riosfurt,Nebraska,USA
+26,RetailSphere Store 26,Warehouse,Maddenshire,West Virginia,USA
+27,RetailSphere Store 27,Warehouse,Thomasberg,Colorado,USA
+28,RetailSphere Store 28,Supermarket,South Raymond,Louisiana,USA
+29,RetailSphere Store 29,Warehouse,Annafort,Illinois,USA
+30,RetailSphere Store 30,Supermarket,New Kayla,Massachusetts,USA
+31,RetailSphere Store 31,Warehouse,North Ritafort,Alabama,USA
+32,RetailSphere Store 32,Mall Outlet,North Marystad,Kentucky,USA
+33,RetailSphere Store 33,Mall Outlet,Williamsfurt,Iowa,USA
+34,RetailSphere Store 34,Express,South Stacie,Hawaii,USA
+35,RetailSphere Store 35,Express,Fordville,Pennsylvania,USA
+36,RetailSphere Store 36,Express,Lake Tara,Wyoming,USA
+37,RetailSphere Store 37,Mall Outlet,Rojasville,Michigan,USA
+38,RetailSphere Store 38,Warehouse,North Jonathan,Ohio,USA
+39,RetailSphere Store 39,Warehouse,Andersonside,New York,USA
+40,RetailSphere Store 40,Express,East Emily,Virginia,USA
+41,RetailSphere Store 41,Express,Woodardton,Delaware,USA
+42,RetailSphere Store 42,Express,Smithbury,New Mexico,USA
+43,RetailSphere Store 43,Express,East Emily,West Virginia,USA
+44,RetailSphere Store 44,Supermarket,New Johnshire,New Hampshire,USA
+45,RetailSphere Store 45,Warehouse,Steelehaven,Virginia,USA
+46,RetailSphere Store 46,Express,Campbellport,Kansas,USA
+47,RetailSphere Store 47,Supermarket,Sanderston,South Carolina,USA
+48,RetailSphere Store 48,Hypermarket,North Autumnmouth,Florida,USA
+49,RetailSphere Store 49,Warehouse,North Bethanyburgh,Oklahoma,USA
+50,RetailSphere Store 50,Warehouse,South Anthonyshire,Missouri,USA
+51,RetailSphere Store 51,Hypermarket,Hallstad,Kansas,USA
+52,RetailSphere Store 52,Warehouse,East Brandyburgh,Mississippi,USA
+53,RetailSphere Store 53,Express,Jefferychester,North Dakota,USA
+54,RetailSphere Store 54,Supermarket,Brooksberg,Texas,USA
+55,RetailSphere Store 55,Express,Rubenmouth,Vermont,USA
+56,RetailSphere Store 56,Mall Outlet,Andreaview,Mississippi,USA
+57,RetailSphere Store 57,Warehouse,Samuelview,Delaware,USA
+58,RetailSphere Store 58,Warehouse,Lopezmouth,Mississippi,USA
+59,RetailSphere Store 59,Express,North Jackiestad,South Carolina,USA
+60,RetailSphere Store 60,Warehouse,Lake Sarahville,South Dakota,USA
+61,RetailSphere Store 61,Supermarket,Michaelside,Tennessee,USA
+62,RetailSphere Store 62,Mall Outlet,West Brandonton,Arkansas,USA
+63,RetailSphere Store 63,Express,Lake Kelly,Louisiana,USA
+64,RetailSphere Store 64,Express,Lake Christian,Georgia,USA
+65,RetailSphere Store 65,Express,North James,Oklahoma,USA
+66,RetailSphere Store 66,Warehouse,West Anaborough,Mississippi,USA
+67,RetailSphere Store 67,Hypermarket,Stephaniefort,Ohio,USA
+68,RetailSphere Store 68,Express,South James,Washington,USA
+69,RetailSphere Store 69,Supermarket,South Emilyport,Wyoming,USA
+70,RetailSphere Store 70,Mall Outlet,South Diana,Pennsylvania,USA
+71,RetailSphere Store 71,Express,South Elaine,Florida,USA
+72,RetailSphere Store 72,Express,South Curtis,Indiana,USA
+73,RetailSphere Store 73,Mall Outlet,Mccoychester,Delaware,USA
+74,RetailSphere Store 74,Express,Deborahshire,Arizona,USA
+75,RetailSphere Store 75,Mall Outlet,Rileyshire,Alabama,USA
+76,RetailSphere Store 76,Supermarket,North Brendan,Wisconsin,USA
+77,RetailSphere Store 77,Warehouse,Schneidertown,Mississippi,USA
+78,RetailSphere Store 78,Mall Outlet,New Cody,Missouri,USA
+79,RetailSphere Store 79,Mall Outlet,South Madisonville,Ohio,USA
+80,RetailSphere Store 80,Warehouse,East Jessicafort,Georgia,USA
+81,RetailSphere Store 81,Hypermarket,South Catherine,Delaware,USA
+82,RetailSphere Store 82,Warehouse,Jenniferview,Nebraska,USA
+83,RetailSphere Store 83,Supermarket,South Edward,Massachusetts,USA
+84,RetailSphere Store 84,Hypermarket,Manningview,New York,USA
+85,RetailSphere Store 85,Hypermarket,Tylerfort,Illinois,USA
+86,RetailSphere Store 86,Express,Lake Jayfort,Montana,USA
+87,RetailSphere Store 87,Hypermarket,Seanborough,Mississippi,USA
+88,RetailSphere Store 88,Hypermarket,Mistyfort,California,USA
+89,RetailSphere Store 89,Warehouse,Port Dennisview,North Dakota,USA
+90,RetailSphere Store 90,Warehouse,Hillhaven,Ohio,USA
+91,RetailSphere Store 91,Hypermarket,Whitetown,New Jersey,USA
+92,RetailSphere Store 92,Supermarket,Patrickmouth,Washington,USA
+93,RetailSphere Store 93,Warehouse,West Diamondmouth,Arkansas,USA
+94,RetailSphere Store 94,Mall Outlet,Port Donchester,Alabama,USA
+95,RetailSphere Store 95,Hypermarket,West Bobbyport,West Virginia,USA
+96,RetailSphere Store 96,Mall Outlet,Kristinaview,Missouri,USA
+97,RetailSphere Store 97,Warehouse,Stevensfurt,Wyoming,USA
+98,RetailSphere Store 98,Express,Port Stephenberg,Connecticut,USA
+99,RetailSphere Store 99,Supermarket,Alexanderberg,New Mexico,USA
+100,RetailSphere Store 100,Supermarket,North Raymond,Connecticut,USA
