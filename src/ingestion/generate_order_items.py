@@ -10,7 +10,6 @@ order_item_id = 1
 
 for order_id in range(1, 50001):
 
-    # Each order has between 1 and 5 products
     number_of_products = random.randint(1, 5)
 
     for _ in range(number_of_products):
