@@ -19,10 +19,10 @@ order_items = spark.read.csv(
     inferSchema=True
 )
 
-# Join Orders and Order Items
+
 sales = orders.join(order_items, "order_id")
 
-# Total Sales by Order
+
 sales_summary = (
     sales.groupBy("order_id")
          .agg(sum("total_price").alias("total_sales"))
