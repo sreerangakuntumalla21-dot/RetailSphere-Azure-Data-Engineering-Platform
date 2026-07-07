@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import sum, count, col
 
-# Create Spark Session
+
 spark = (
     SparkSession.builder
     .appName("Customer Analytics")
@@ -27,13 +27,13 @@ order_items = spark.read.csv(
     inferSchema=True
 )
 
-# Join Orders with Order Items
+
 sales = orders.join(order_items, "order_id")
 
-# Join with Customers
+
 customer_sales = sales.join(customers, "customer_id")
 
-# Customer Analytics
+
 analytics = (
     customer_sales
     .groupBy(
