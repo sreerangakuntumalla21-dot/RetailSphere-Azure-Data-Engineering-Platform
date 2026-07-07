@@ -1,14 +1,14 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import sum, col
 
-# Create Spark Session
+
 spark = (
     SparkSession.builder
     .appName("Product Sales Analysis")
     .getOrCreate()
 )
 
-# Read Data
+
 products = spark.read.csv(
     "data/raw/products.csv",
     header=True,
@@ -21,10 +21,10 @@ order_items = spark.read.csv(
     inferSchema=True
 )
 
-# Join Products with Order Items
+
 sales = order_items.join(products, "product_id")
 
-# Calculate Total Sales Per Product
+
 product_sales = (
     sales.groupBy(
         "product_id",
