@@ -1,14 +1,14 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import sum, count, col
 
-# Create Spark Session
+
 spark = (
     SparkSession.builder
     .appName("RetailSphere Dashboard Dataset")
     .getOrCreate()
 )
 
-# Read datasets
+
 orders = spark.read.csv(
     "data/raw/orders.csv",
     header=True,
@@ -39,7 +39,7 @@ customers = spark.read.csv(
     inferSchema=True
 )
 
-# Create one master dataset
+
 dashboard = (
     orders
     .join(order_items, "order_id")
