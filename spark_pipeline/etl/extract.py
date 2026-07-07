@@ -1,6 +1,6 @@
 from spark_pipeline.config.spark_config import get_spark
 
-# Create Spark Session
+
 spark = get_spark()
 
 
