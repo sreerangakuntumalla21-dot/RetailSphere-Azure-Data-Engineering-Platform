@@ -1,6 +1,3 @@
--- ==========================================
--- Sales Summary View
--- ==========================================
 
 CREATE VIEW sales_summary AS
 SELECT
