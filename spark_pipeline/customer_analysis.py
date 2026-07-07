@@ -8,7 +8,7 @@ spark = (
     .getOrCreate()
 )
 
-# Read Data
+
 customers = spark.read.csv(
     "data/raw/customers.csv",
     header=True,
