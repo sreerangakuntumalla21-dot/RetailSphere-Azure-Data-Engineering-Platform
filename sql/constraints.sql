@@ -1,6 +1,3 @@
--- ==========================================
--- Foreign Key Constraints
--- ==========================================
 
 ALTER TABLE employees
 ADD CONSTRAINT fk_employee_store
