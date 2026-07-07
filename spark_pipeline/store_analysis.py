@@ -1,14 +1,14 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import sum, count, col
 
-# Create Spark Session
+
 spark = (
     SparkSession.builder
     .appName("Store Performance Analysis")
     .getOrCreate()
 )
 
-# Read Data
+
 stores = spark.read.csv(
     "data/raw/stores.csv",
     header=True,
@@ -27,14 +27,14 @@ order_items = spark.read.csv(
     inferSchema=True
 )
 
-# Join tables
+
 sales = (
     orders
     .join(order_items, "order_id")
     .join(stores, "store_id")
 )
 
-# Store KPIs
+
 store_performance = (
     sales
     .groupBy(
