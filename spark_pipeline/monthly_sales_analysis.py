@@ -24,7 +24,7 @@ order_items = spark.read.csv(
 
 sales = orders.join(order_items, "order_id")
 
-# Extract Year and Month
+
 sales = (
     sales
     .withColumn("year", year(col("order_date")))
