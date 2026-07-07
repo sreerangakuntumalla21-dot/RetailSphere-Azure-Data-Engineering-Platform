@@ -1,36 +1,78 @@
-# RetailSphere Enterprise Architecture
+# RetailSphere - System Architecture
 
 ## Overview
 
-RetailSphere follows a modern enterprise data engineering architecture.
+RetailSphere is an end-to-end Data Engineering Platform designed to simulate a real-world retail analytics system. The project demonstrates how raw retail data flows through an ETL pipeline before being transformed into business insights using Power BI.
 
-```text
-                Raw CSV Files
-                      │
-                      ▼
-          Python Data Generation
-                      │
-                      ▼
-             PostgreSQL Database
-                      │
-                      ▼
-            Python ETL Pipeline
-                      │
-                      ▼
-      Azure Data Lake Storage (Bronze)
-                      │
-                      ▼
-     Azure Databricks Transformations
-                      │
-                      ▼
-           Silver Layer (Clean Data)
-                      │
-                      ▼
-        Gold Layer (Business Ready)
-                      │
-                      ▼
-          Azure Synapse Analytics
-                      │
-                      ▼
-             Power BI Dashboards
-```
+---
+
+## Architecture
+
+Raw Data (CSV Files)
+        │
+        ▼
+Python Data Generation
+        │
+        ▼
+PostgreSQL Database
+        │
+        ▼
+PySpark ETL Pipeline
+ ├── Extract
+ ├── Transform
+ ├── Analytics
+ └── Load
+        │
+        ▼
+Analytics Output (CSV)
+        │
+        ▼
+Power BI Dashboard
+
+---
+
+## Components
+
+### Data Generation
+- Synthetic retail datasets generated using Python
+- Customers
+- Orders
+- Products
+- Stores
+- Inventory
+- Suppliers
+- Employees
+- Shipments
+
+### Database
+- PostgreSQL stores enterprise retail data.
+- Tables are normalized using primary and foreign keys.
+
+### ETL Pipeline
+The PySpark pipeline follows a modular architecture:
+
+- Extract
+- Transform
+- Analytics
+- Load
+
+### Reporting
+Power BI visualizes KPIs such as:
+- Total Revenue
+- Monthly Sales
+- Total Orders
+- Customers
+- Products
+- Stores
+
+---
+
+## Technologies
+
+- Python
+- PySpark
+- PostgreSQL
+- SQL
+- Power BI
+- Git
+- GitHub
