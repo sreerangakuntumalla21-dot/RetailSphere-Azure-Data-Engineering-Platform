@@ -5,7 +5,6 @@ import os
 
 fake = Faker()
 
-# Create output directory if it doesn't exist
 os.makedirs("data/raw", exist_ok=True)
 
 categories = [
